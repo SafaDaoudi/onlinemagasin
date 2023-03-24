@@ -1,0 +1,556 @@
+
+/*Styling af forsiden*/
+
+#pinkbackdrop{
+    background-image: url(fotos/pinkbackdrop.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+
+.logo{
+    margin-top: -480px;
+    margin-left: 30px;
+}
+.logo a{
+    margin-top: 100px;
+    margin-left: -300px;
+    font-family: 'Lobster';
+    font-size: 40pt;
+    color: rgb(132, 0, 79);
+    text-decoration:none;
+    cursor: pointer;
+}
+.logo a:hover{
+    color: white;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 800px;
+    margin-top: 0px;
+
+}
+header nav a{
+    text-decoration: none;
+    color:rgb(132, 0, 79);
+    font-size: 20px;
+    font-family: 'Lobster';
+    font-weight: lighter;
+}
+header nav a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+#textbox{
+    border: 3px solid pink;
+    margin-top: 350px;
+    margin-left: 200px;
+    height: 1000px;
+    width: 1600px;
+
+}
+#textbox span{
+    color: rgb(132, 0, 79);
+    cursor: pointer;
+    font-weight: bold;
+}
+#textbox span:hover{
+    color:rgb(235, 180, 220)
+}
+
+
+
+#textcontent h1{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 40pt;
+    font-family: 'Lobster';
+    color: rgb(132, 0, 79);
+}
+#textcontent p{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15pt;
+    font-weight: lighter;
+    line-height: 32px;
+}
+#textpics img{
+    width: 800px;
+    margin-left: 750px;
+    margin-top: -800px;
+    }
+
+
+/* Styling af "Lækre Opskrifter"*/
+
+.overskriften{
+    border: solid pink;
+    margin-right: 200px;
+    margin-top: 300px;
+    margin-left: 300px;
+    padding-left: 100px;
+}
+.overskriften h1{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45pt;
+    color: rgb(132, 0, 79);
+}
+
+
+
+.lilletextbox h1{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25pt;
+    color: pink;
+}
+.lilletextbox p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15pt;
+    font-weight: lighter;
+    line-height: 32px;
+}
+.lilletextbox img{
+margin-left: 700px;
+margin-top: -500px;
+padding-top: -200px;
+border: 2px solid transparent;
+border-radius: 15px;
+}
+
+.overskrift2{
+    text-align: center;
+    margin-top: 200px;
+}
+.overskrift2 h1{
+    color: rgb(132, 0, 79);
+    font-weight: bolder;
+    font-size: 30pt;
+}
+.overskrift2 p{
+    color: pink;
+    font-family: 'Fredoka One';
+    font-style:normal;
+    font-weight: lighter;
+    font-size: 30pt;
+    line-height: 1px;
+}
+
+
+
+.valgmuligheder{
+    display:block;
+    margin-top: 170px; 
+    margin-left: -900px;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+
+  }
+
+/*alle billeder i sektionen bliver behandlet her*/
+.valgmuligheder img{
+    margin-bottom: 70px;
+    width: 400px;
+    height: 250px;
+    border-radius: 2px;
+    opacity: 0.7;
+}
+.valgmuligheder img:hover{
+    opacity: 1;
+}
+
+
+/*Alle a i sektionen bliver behandlet her*/
+.valgmuligheder a{
+text-decoration:none;
+color: rgb(132, 0, 79);
+cursor: pointer;
+}
+.valgmuligheder a:hover{
+    color: black;
+}
+
+
+
+.opskrift1{
+    position: relative;
+    margin-left: 200px;
+}
+.text1{
+  border: none;
+  position: absolute;
+  bottom: 160px;
+  right: 44%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 2px;
+}
+
+
+.opskrift2{
+    position:relative;
+    margin-left: 400px; 
+    margin-right: 200px;
+}
+.text2{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    right: 43.5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+.opskrift3{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.text3{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    right: 46.5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+.opskrift4{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.text4{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    right: 46.5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+.opskrift5{
+    position: relative;
+    width: 400px;
+    margin-left: 1990px;
+    margin-top: -1300px;
+}
+.text5{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    left: 110px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+.opskrift6{
+    position: relative;
+    width: 400px;
+    margin-left: 1990px;
+}
+.text6{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    left: 110px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+.opskrift7{
+    position: relative;
+    width: 400px;
+    margin-left: 1990px;
+}
+.text7{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+.opskrift8{
+    position: relative;
+    width: 400px;
+    margin-left: 1990px;
+}
+.text8{
+    border: none;
+    position: absolute;
+    bottom: 160px;
+    left: 70px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(132, 0, 79);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2px;
+}
+
+
+
+
+
+
+
+/*Styling af opskriftvejledningen*/
+
+
+.heleopskriften{
+    margin-top: 300px;
+}
+.heleopskriften h1{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+.heleopskriften h2{
+    padding-top: 0px;
+    margin-bottom: -100px;
+    margin-left: 30px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    font-size: 55pt;
+    line-height: 30px;
+    color: rgb(132, 0, 79);
+    
+}
+.heleopskriften span{
+    color: rgb(190, 25, 124);
+    font-size: 15pt;
+    font-style: italic;
+}
+.heleopskriften h3{
+    font-size: 17pt;
+    font-weight: lighter;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+
+
+
+}
+.heleopskriften h4{
+margin-left: 50px;
+margin-bottom: 200px;
+font-family: 'Lobster';
+font-size: 25pt;
+font-weight: lighter;
+text-decoration: underline;
+color: rgb(218, 18, 138);
+}
+.heleopskriften p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15pt;
+    color: white;
+}
+.heleopskriften img{
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+
+/*Disse div'er er kasserne på sitet*/
+#ingredienser{
+    border: 3px solid pink;
+    border-radius: 3px;
+    background-color: pink;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 400px;
+    padding-left: 30px;
+    width: 500px;
+}
+#ingredienser p{
+    font-size: 20pt;
+    color: white;
+
+}
+#ingredienser span{
+    color: pink;
+}
+
+
+
+#forberedelse{
+    border: 3px solid #ddb3da;
+    background-color:#ddb3da;
+    border-radius: 3px;
+    width: 400px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-left: 700px;
+    margin-top: -1400px;
+}
+
+#fremgangsmåde{
+    border: 3px solid rgb(159, 0, 95);
+    background-color: rgb(159, 0, 95);
+    border-radius: 3px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 700px;
+    padding: 0px 10px 20px 30px;
+}
+
+#tips{
+    border: 4px solid #f39ce0;
+    background-color: #f39ce0;
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 1200px;
+    margin-top: -1200px;
+    padding:0px 0px 20px 30px;
+}
+
+#hindbærganache{
+    border: 2px solid rgb(248, 204, 204);
+    background-color: rgb(248, 204, 204);
+    border-radius: 3px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-top: 200px;
+    padding: 0px 0px 10px 30px;
+
+}
+
+
+
+#spargrisen{
+    border: 4px solid rgb(247, 255, 1);
+    background-color: rgb(8, 143, 143);
+    border-radius: 20px;
+    margin-left: 1365px;
+    margin-top: -700px;
+    width: 450px;
+    padding-left: 20px;
+}
+#spargrisen h3{
+    font-size: 14pt;
+    font-style: italic;
+}
+#spargrisen h5{
+    font-size: 8;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+#spargrisen span{
+    color: rgb(8, 143, 143);
+}
+
+
+/* Styling af Alternativer*/
+
+.alternativer{
+}
+
+.alternativer h1{
+    font-family: 'Lobster';
+    font-size: 45pt;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: rgb(218, 18, 138);
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.alternativer img{
+    padding-bottom: 100px;
+}
+#ikonerne{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    background: rgb(235, 180, 220);
+    color: rgb(132, 0, 79);
+    font-size: 5pt;
+    font-family: 'Questrial', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+
+
+
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(132, 0, 79);
+    font-size: 5pt;
+    font-family: 'Questrial', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.om a:hover{
+    color: white;
+}
+.some img {
+background-size: 100px;
+width: 40px;
+height: 40px;
+cursor: pointer;
+margin-left: 20px;
+padding-top: 30px;
+}
+.some img:hover{
+    transition: transform .09s;
+    width: 60px;
+    height: 60px;
+}
